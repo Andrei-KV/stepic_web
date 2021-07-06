@@ -8,3 +8,5 @@ sudo pip3 install --upgrade django==2.1
 sudo pip3 install --upgrade gunicorn
 sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default
 sudo /etc/init.d/nginx restart
+sudo django-admin startproject ask
+sudo mkdir ask.qa
