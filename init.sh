@@ -9,4 +9,5 @@ sudo pip3 install --upgrade gunicorn
 sudo ln -sf /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/default
 sudo /etc/init.d/nginx restart
 sudo django-admin startproject ask
-sudo mkdir ask.qa
+sudo python ./ask/manage.py startapp qa
+sudo touch ./ask/qa/urls.py
