@@ -17,3 +17,4 @@ sudo pip3 install --upgrade django==2.1
 sudo pip3 install --upgrade gunicorn
 sudo /etc/init.d/nginx start
 sudo /etc/init.d/nginx restart
+sudo /etc/init.d/mysql start
